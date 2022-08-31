@@ -1,6 +1,6 @@
 package net.coremotion.challenge1.common
 
-class Resource<out T>(val status: Status, val data: T?, private val message: String?) {
+class Resource<out T>( val status: Status,  val data: T?, private val message: String?) {
 
     enum class Status {
         SUCCESS,
